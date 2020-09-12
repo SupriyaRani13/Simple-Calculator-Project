@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="javascript.js"></script>
+</header>
+<body>
+	
+	<div id="page-container">
+		<header id="header">
+			<h1>Simple Calculator</h1>
+		</header><br>
+
+		<marquee>Atria Institute Of Teachnology</marquee>	
+
+		<br><br>
+		<div id="content-wrap"><br><br><br><br><br>
+			<table border="2px" cellspacing="8px" cellpadding="8px">
+				<tr>
+					<td colspan="4"><spam id="spam1">SIMPLE CALCULATOR</spam></td>
+				</tr>
+				<tr>
+					<td>Value 1</td>
+					<td><input type="text" id="value1" value=""/></td>
+					<td>Value 2</td>
+					<td><input type="text" id="value2" value=""/></td>
+				</tr>
+				<tr>
+					<td><input type="button" id="add" value="Addition" onclick="cal(this.id)"/></td>
+					<td><input type="button" id="sub" value="Subtraction" onclick="cal(this.id)"/></td>
+					<td><input type="button" id="mul" value="Multiplication" onclick="cal(this.id)"/></td>
+					<td><input type="button" id="div" value="Divide" onclick="cal(this.id)"/></td>
+				</tr>
+				<tr>
+					<td>Answer:</td>
+					<td><input type="text" id="answer" value="" disabled=""/></td>
+					<td colspan="2"><input type="button" value="clearAll" onclick="clr()"/></td>
+				</tr>
+			</table>
+		</div>
+
+		<footer id="footer">
+			<p>Designed & Developed by <spam class="myName">Supriya Rani</spam></p>
+		</footer>
+	</div>
+</body>
+</html>

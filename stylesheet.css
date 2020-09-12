@@ -1,0 +1,47 @@
+#header{
+	color: red;
+	text-align: center;
+	background-color: aliceblue;
+	height: 3rem;
+}
+
+#page-container{
+	position: relative;
+	min-height: 100vh;
+}
+
+#content-wrap{
+	background-color: lightblue;
+	align-items: center;
+	min-height: 70vh;
+}
+/*
+#spam1{
+	text-align: center;
+	color: black;
+}
+*/
+table{
+	background-color: white;
+	border-collapse: collapse;
+	text-align: center;
+	border: 1px solid black;
+	width: 33%;
+	margin: auto;
+}
+
+.myName{
+	color: red;
+	text-align: center;
+	background-color: lightgray;
+}
+
+#footer{
+	position: absolute;
+	bottom: 0;
+	height: 3rem;
+	width: 100%;
+	background-color: lightgrey;
+	color: black;
+	text-align: center;
+}
